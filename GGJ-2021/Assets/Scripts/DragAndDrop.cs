@@ -8,6 +8,19 @@ public class DragAndDrop : MonoBehaviour
     private Color mouseOverColor = Color.blue;
     private Color originalColor = Color.yellow;
 
+    public Vector2 pos;
+    public float speed = 1.0f;
+    public GameObject quad;
+
+    void Start()
+    {
+        MeshCollider c = quad.GetComponent<MeshCollider>(); // where item  slide
+        float screenX = Random.Range(c.bounds.min.x, c.bounds.max.x); // random position on quad
+        float screenY = Random.Range(c.bounds.min.y, c.bounds.max.y); // random position on quad
+        //Color newColor = new Color(Random.value, Random.value, Random.value, 1.0f);
+        pos = new Vector2(screenX, screenY);
+    }
+
     void Update()
     {
         if(selected == true)
@@ -20,7 +33,13 @@ public class DragAndDrop : MonoBehaviour
         {
             selected = false;
         }
+
+        // items fly to Quad
+        float step = speed * Time.deltaTime;
+        transform.position = Vector2.Lerp(transform.position, pos, step);
+
     }
+
 
     void OnMouseOver()
     {
@@ -30,6 +49,7 @@ public class DragAndDrop : MonoBehaviour
         }
     }
 
+    // change color when clich
     void OnMouseEnter()
     {
         GetComponent<Renderer>().material.color = mouseOverColor;

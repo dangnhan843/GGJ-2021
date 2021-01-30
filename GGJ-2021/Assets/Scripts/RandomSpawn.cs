@@ -5,38 +5,39 @@ using UnityEngine;
 public class RandomSpawn : MonoBehaviour
 {
     public int numberToSpawn;
+    public float spawnSpeed = 2f;
     public List<GameObject> spawnPool;
     public GameObject quad;
+    public GameObject spawner;
 
     void Start()
     {
-        spawnObjects();
+        // auto spawn every 2 second
+        InvokeRepeating("spawnObjects", 2.0f, spawnSpeed);
     }
 
+    void Update()
+    {
+
+    }
 
     public void spawnObjects()
     {
         int randomItem = 0;
         GameObject toSpawn;
-        MeshCollider c = quad.GetComponent<MeshCollider>();
 
-        float screenX, screenY;
-        Vector2 pos;
-
+        // random spawn item from spawner position
         for (int i = 0; i < numberToSpawn; i++)
         {
             randomItem = Random.Range(0, spawnPool.Count);
             toSpawn = spawnPool[randomItem];
-
-            screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
-            screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
-            pos = new Vector2(screenX, screenY);
-
-            Instantiate(toSpawn, pos, toSpawn.transform.rotation);
+            Instantiate(toSpawn, spawner.transform.position, toSpawn.transform.rotation);
         }
 
     }
 
+
+    // for later use
     private void destroyObjects()
     {
         foreach(GameObject o in GameObject.FindGameObjectsWithTag("Spawnable"))
