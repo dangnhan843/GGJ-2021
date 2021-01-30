@@ -5,6 +5,8 @@ using UnityEngine;
 public class DragAndDrop : MonoBehaviour
 {
     private bool selected;
+    private Color mouseOverColor = Color.blue;
+    private Color originalColor = Color.yellow;
 
     void Update()
     {
@@ -14,7 +16,7 @@ public class DragAndDrop : MonoBehaviour
             transform.position = new Vector2(cursorPos.x, cursorPos.y);
         }
 
-        if(Input.GetMousButtonUp(0))
+        if(Input.GetMouseButtonUp(0))
         {
             selected = false;
         }
@@ -22,9 +24,19 @@ public class DragAndDrop : MonoBehaviour
 
     void OnMouseOver()
     {
-        if(Input.GetMousButtonDown(0))
+        if(Input.GetMouseButtonDown(0))
         {
             selected = true;
         }
+    }
+
+    void OnMouseEnter()
+    {
+        GetComponent<Renderer>().material.color = mouseOverColor;
+    }
+
+    void OnMouseExit()
+    {
+        GetComponent<Renderer>().material.color = originalColor;
     }
 }
