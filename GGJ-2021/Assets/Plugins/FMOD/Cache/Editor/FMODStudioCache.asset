@@ -22,7 +22,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 626
+  Length: 576
 --- !u!114 &-8273492428015036384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 626
+  Length: 576
 --- !u!114 &-8225391232494758297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 626
+  Length: 576
 --- !u!114 &-6289860874561732126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,7 +85,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &-5343828116150616373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Music/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-4608902165079616227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,8 +123,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6289860874561732126}
-  - {fileID: 3555848018157997082}
+  - {fileID: 8608184439916393199}
+  - {fileID: 5167260148987233431}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -133,7 +150,24 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 626
+  Length: 576
+--- !u!114 &-2961785148467431464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Music/intensity
+  m_EditorClassIdentifier: 
+  Name: intensity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2931060246940355030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,7 +213,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 313
+  Length: 263
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,7 +249,7 @@ MonoBehaviour:
   - {fileID: 6470726756431987564}
   StringsBanks:
   - {fileID: 765311228691517785}
-  stringsBankWriteTime: 637476911508877455
+  stringsBankWriteTime: 637476978928808909
   cacheVersion: 4
 --- !u!114 &552050674004615397
 MonoBehaviour:
@@ -239,7 +273,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 626
+  Length: 576
 --- !u!114 &765311228691517785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,7 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: GGJ21FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637476911508877455
+  lastModified: 637476978928808909
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -344,7 +378,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4004052967763252699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,7 +401,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 626
+  Length: 576
 --- !u!114 &4889735745737923057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,6 +425,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 914
+--- !u!114 &5167260148987233431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Music/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &5327930924176682651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,7 +464,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 4884
+  Length: 4834
 --- !u!114 &6470726756431987564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,7 +479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: GGJ21FMOD/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637476911508817442
+  lastModified: 637476978928738897
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -477,7 +528,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 626
+  Length: 573
 --- !u!114 &7473088936058785577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,4 +551,21 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 313
+  Length: 263
+--- !u!114 &8608184439916393199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Music/intensity
+  m_EditorClassIdentifier: 
+  Name: intensity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1

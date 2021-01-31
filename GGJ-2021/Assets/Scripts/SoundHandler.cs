@@ -108,4 +108,9 @@ public class SoundHandler : MonoBehaviour
     {
         sounds[soundIndex].start();
     }
+    public void IncrimentTempo()
+    {
+        tempo += 0.005f;
+        music.setParameterByName("tempo", tempo);
+    }
 }

@@ -100,7 +100,10 @@
 	<object class="MixerBusPanner" id="{bd4f70bf-3322-43a2-b4a8-dd5eb581c6dc}" />
 	<object class="SingleSound" id="{02e9504e-fc26-49e7-9430-e41c8723fcf4}">
 		<property name="length">
-			<value>0.62693877551020405</value>
+			<value>0.57307248416608081</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.049111109126032698</value>
 		</property>
 		<property name="pitch">
 			<value>-1.60000002</value>
@@ -128,7 +131,10 @@
 	</object>
 	<object class="SingleSound" id="{dd543fc3-7757-46d4-be76-f97e130ec2d9}">
 		<property name="length">
-			<value>0.31346938775510202</value>
+			<value>0.27972896350658488</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.046357778963033468</value>
 		</property>
 		<property name="volume">
 			<value>-8</value>

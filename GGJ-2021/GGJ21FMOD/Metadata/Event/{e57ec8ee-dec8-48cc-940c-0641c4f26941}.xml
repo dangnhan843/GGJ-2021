@@ -93,7 +93,13 @@
 	<object class="MixerBusPanner" id="{5c4934de-8b6a-47bf-9f53-beeccc823ed4}" />
 	<object class="SingleSound" id="{f405604d-28c2-4f5b-ad55-fb32dec59bbc}">
 		<property name="length">
-			<value>4.8848979591836734</value>
+			<value>4.8346127140511399</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.050285245132535794</value>
+		</property>
+		<property name="pitch">
+			<value>-7.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{3785dbca-40f3-4698-b6a0-a5e20d4d356c}</destination>
@@ -130,7 +136,7 @@
 			<value>0</value>
 		</property>
 		<property name="decayTime">
-			<value>140</value>
+			<value>100</value>
 		</property>
 		<property name="decayShape">
 			<value>0.429262578</value>
@@ -154,7 +160,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>13</value>
+			<value>7</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{ae92c8a1-9b5b-4bea-b267-4014f1695a8e}">

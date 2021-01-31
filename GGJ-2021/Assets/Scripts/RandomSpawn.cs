@@ -9,11 +9,13 @@ public class RandomSpawn : MonoBehaviour
     public List<GameObject> spawnPool;
     public GameObject quad;
     public GameObject spawner;
+    SoundHandler sound;
 
     void Start()
     {
         // auto spawn every 2 second
         InvokeRepeating("spawnObjects", 2.0f, spawnSpeed);
+        sound = GameObject.Find("Main Camera").GetComponent<SoundHandler>();
     }
 
     void Update()
@@ -33,7 +35,8 @@ public class RandomSpawn : MonoBehaviour
             toSpawn = spawnPool[randomItem];
             Instantiate(toSpawn, spawner.transform.position, toSpawn.transform.rotation);
         }
-
+        sound.PlaySound(12);
+        sound.IncrimentTempo();
     }
 
 

@@ -12,6 +12,8 @@ public class DragAndDrop : MonoBehaviour
     public float speed = 1.0f;
     public GameObject quad;
 
+    SoundHandler sound;
+
     void Start()
     {
         MeshCollider c = quad.GetComponent<MeshCollider>(); // where item  slide
@@ -19,6 +21,7 @@ public class DragAndDrop : MonoBehaviour
         float screenY = Random.Range(c.bounds.min.y, c.bounds.max.y); // random position on quad
         //Color newColor = new Color(Random.value, Random.value, Random.value, 1.0f);
         pos = new Vector2(screenX, screenY);
+        sound = GameObject.Find("Main Camera").GetComponent<SoundHandler>();
     }
 
     void Update()
@@ -31,7 +34,12 @@ public class DragAndDrop : MonoBehaviour
 
         if(Input.GetMouseButtonUp(0))
         {
+            if (selected == true)
+            {
+                sound.PlaySound(4);
+            }
             selected = false;
+           
         }
 
         // items fly to Quad
@@ -46,6 +54,7 @@ public class DragAndDrop : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             selected = true;
+            sound.PlaySound(3);
         }
     }
 
@@ -53,6 +62,11 @@ public class DragAndDrop : MonoBehaviour
     void OnMouseEnter()
     {
         GetComponent<Renderer>().material.color = mouseOverColor;
+        if (!Input.GetMouseButton(0))
+        {
+            sound.PlaySound(5);
+
+        }
     }
 
 
