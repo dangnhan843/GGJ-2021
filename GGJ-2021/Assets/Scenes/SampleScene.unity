@@ -589,6 +589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1385453965}
   - component: {fileID: 1385453964}
+  - component: {fileID: 1385453966}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -661,6 +662,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1385453966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385453963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed758d4f7b38e4a4eb6bc52b487c9ebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPool:
+  - {fileID: 1300824325}
+  - {fileID: 31841238}
+  - {fileID: 1320557386}
+  - {fileID: 281109835}
+  - {fileID: 1597618231}
+  - {fileID: 2020262660}
+  - {fileID: 710254905}
+  - {fileID: 1594101676}
+  - {fileID: 129618853}
+  - {fileID: 1311638962}
+  bagSize: 4
 --- !u!1 &1477057444
 GameObject:
   m_ObjectHideFlags: 0
