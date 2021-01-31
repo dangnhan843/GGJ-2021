@@ -55,8 +55,13 @@ public class DragAndDrop : MonoBehaviour
         GetComponent<Renderer>().material.color = mouseOverColor;
     }
 
+
     void OnMouseExit()
     {
-        GetComponent<Renderer>().material.color = originalColor;
+        // only uncolor if not being dragged
+        if(selected == false)
+        {
+            GetComponent<Renderer>().material.color = originalColor;
+        }
     }
 }

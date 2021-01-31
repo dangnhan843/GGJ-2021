@@ -1445,6 +1445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
+  - component: {fileID: 519420030}
   - component: {fileID: 519420029}
   m_Layer: 0
   m_Name: Main Camera
@@ -1453,14 +1454,48 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &519420029
-AudioListener:
+--- !u!114 &519420029
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a6ce0c0abcf81448dc38015736fa79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicFadeSpeed: 0.2
+  musicEvent: event:/Game Music
+  buttonHard: event:/Sound Effects/Menu/Button Hard
+  buttonSoft: event:/Sound Effects/Menu/Button Soft
+  menuClose: event:/Sound Effects/Menu/Menu Close
+  menuOpen: event:/Sound Effects/Menu/Menu Open
+  itemDropHard: event:/Sound Effects/Game/Item Drop Hard
+  itemDropSoft: event:/Sound Effects/Game/Item Drop Soft
+  itemGrab: event:/Sound Effects/Game/Item Grab
+  itemSortCorrect: event:/Sound Effects/Game/Item Sort Correct
+  itemSortWrong: event:/Sound Effects/Game/Item Sort Wrong
+  studentArrival: event:/Sound Effects/Game/Student Arrival
+  studentHappy: event:/Sound Effects/Game/Student Happy
+  studentMad: event:/Sound Effects/Game/Student Mad
+  itemArrival: event:/Sound Effects/Game/Item Arrival
+  tempo: 0
+  intensity: 0
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0

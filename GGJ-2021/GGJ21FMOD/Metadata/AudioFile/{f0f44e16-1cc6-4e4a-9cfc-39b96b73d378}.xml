@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f0f44e16-1cc6-4e4a-9cfc-39b96b73d378}">
+		<property name="assetPath">
+			<value>Jam4416Harmony.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>48</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bd69f9cf-ae48-43c4-93ff-8ff210f64d62}</destination>
+		</relationship>
+	</object>
+</objects>

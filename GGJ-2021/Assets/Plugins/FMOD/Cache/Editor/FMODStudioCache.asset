@@ -1,0 +1,503 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8284943374722739824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Menu/Menu Open
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Menu/Menu Open
+  guid: 4572d5bfbbd04e4aa1a79b4fd81298cd
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 626
+--- !u!114 &-8273492428015036384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Menu/Menu Close
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Menu/Menu Close
+  guid: e7dc5fd006a19242a317946f4608a404
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 626
+--- !u!114 &-8225391232494758297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Game/Item Sort Correct
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Game/Item Sort Correct
+  guid: 59378b304308b84baec8f82017fac7f4
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 626
+--- !u!114 &-6289860874561732126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Music/intensity
+  m_EditorClassIdentifier: 
+  Name: intensity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-4608902165079616227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game Music
+  m_EditorClassIdentifier: 
+  Path: event:/Game Music
+  guid: fb7f20f8e22b474298f1b6b6c53c6374
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6289860874561732126}
+  - {fileID: 3555848018157997082}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-3221067873214932322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Menu/Button Soft
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Menu/Button Soft
+  guid: 4a29406b6a8d414d855d19487c8e28da
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 626
+--- !u!114 &-2931060246940355030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Game/Student Arrival
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Game/Student Arrival
+  guid: 2c0e9493191ca14c8b4fef8e3ad61328
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 914
+--- !u!114 &-500425324963090186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Game/Item Drop Hard
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Game/Item Drop Hard
+  guid: 4bc9857f89c14a47a7437aea77a5533b
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 313
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 765311228691517785}
+  - {fileID: 6470726756431987564}
+  EditorEvents:
+  - {fileID: 7402380935671444107}
+  - {fileID: -2931060246940355030}
+  - {fileID: 6561036365665808286}
+  - {fileID: -8284943374722739824}
+  - {fileID: -3221067873214932322}
+  - {fileID: -500425324963090186}
+  - {fileID: -8225391232494758297}
+  - {fileID: 552050674004615397}
+  - {fileID: 4004052967763252699}
+  - {fileID: 7473088936058785577}
+  - {fileID: 4889735745737923057}
+  - {fileID: -8273492428015036384}
+  - {fileID: -4608902165079616227}
+  - {fileID: 5327930924176682651}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 6470726756431987564}
+  StringsBanks:
+  - {fileID: 765311228691517785}
+  stringsBankWriteTime: 637476911508877455
+  cacheVersion: 4
+--- !u!114 &552050674004615397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Game/Item Grab
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Game/Item Grab
+  guid: 787519eeb3ee294f88d9f593a26bee5d
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 626
+--- !u!114 &765311228691517785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: GGJ21FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637476911508877455
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1480
+  Exists: 1
+--- !u!114 &778759991717148710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Music/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1279419240148818088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Music/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1799756918625856598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Music/intensity
+  m_EditorClassIdentifier: 
+  Name: intensity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3409070884856886777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Music/intensity
+  m_EditorClassIdentifier: 
+  Name: intensity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3555848018157997082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Music/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &4004052967763252699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Menu/Button Hard
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Menu/Button Hard
+  guid: 976ff00fccb0224d8b0cd14796edd8dd
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 626
+--- !u!114 &4889735745737923057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Game/Student Happy
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Game/Student Happy
+  guid: c233e4e96985f14bbe05821115e5f51d
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 914
+--- !u!114 &5327930924176682651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Game/Item Arrival
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Game/Item Arrival
+  guid: eec87ee5c8decc48940c0641c4f26941
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4884
+--- !u!114 &6470726756431987564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: GGJ21FMOD/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637476911508817442
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6561036365665808286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Game/Student Mad
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Game/Student Mad
+  guid: 44d6b7cebd8b4642a952ed00bf9c2818
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 914
+--- !u!114 &7402380935671444107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Game/Item Sort Wrong
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Game/Item Sort Wrong
+  guid: 0e77f393cef73943b59b285484e1f55c
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 626
+--- !u!114 &7473088936058785577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Game/Item Drop Soft
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Game/Item Drop Soft
+  guid: c09dc06b89fd8c45839af0724ce10a43
+  Banks:
+  - {fileID: 6470726756431987564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 313
