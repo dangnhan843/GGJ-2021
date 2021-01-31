@@ -5,19 +5,24 @@ using UnityEngine;
 public class Box : MonoBehaviour
 {
     public List<GameObject> spawnPool;
-    public List<GameObject> boxBag;
+    //public List<GameObject> boxBag;
     public int bagSize = 4;
+    public List<GameObject> boxBag = new List<GameObject>(4);
 
     // Start is called before the first frame update
     void Start()
     {
         int randomItem = 0;
         GameObject bagItem;
+
         for (int i = 0; i < bagSize; i++)
         {
             randomItem = Random.Range(0, spawnPool.Count);
             bagItem = spawnPool[randomItem];
+            //Debug.Log(bagItem);
             boxBag[i] = bagItem;
+            //Debug.Log(bagItem);
+
         }
     }
 

@@ -686,6 +686,11 @@ MonoBehaviour:
   - {fileID: 129618853}
   - {fileID: 1311638962}
   bagSize: 4
+  boxBag:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1477057444
 GameObject:
   m_ObjectHideFlags: 0
