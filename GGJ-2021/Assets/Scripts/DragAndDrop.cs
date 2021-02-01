@@ -55,6 +55,7 @@ public class DragAndDrop : MonoBehaviour
         {
             selected = true;
             sound.PlaySound(3);
+            sound.IntensifyMusic();
         }
     }
 

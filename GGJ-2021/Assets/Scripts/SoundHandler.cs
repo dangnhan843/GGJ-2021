@@ -87,12 +87,8 @@ public class SoundHandler : MonoBehaviour
         {
             intensity = Mathf.Lerp(intensity, newIntensity, Time.deltaTime /2);
         }
-        
 
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
-        {
-            IntensifyMusic();
-        }
+
     }
 
     public void IntensifyMusic()
@@ -110,7 +106,7 @@ public class SoundHandler : MonoBehaviour
     }
     public void IncrimentTempo()
     {
-        tempo += 0.005f;
+        tempo += 0.02f;
         music.setParameterByName("tempo", tempo);
     }
 }
